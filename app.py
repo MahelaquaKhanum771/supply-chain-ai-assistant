@@ -13,7 +13,7 @@ user_query = st.text_input("Enter your query (e.g., Top 5 customers by sales):")
 if st.button("Run Query"):
   if user_query:
     with st.spinner("Processing through AI pipeline..."):
-      webhook_url = "https://hook.eu1.main.com/4kac7stylqp3fqdfjbkwnje2q9xlw93a"
+      webhook_url = "https://hook.eu1.make.com/4kac7stylqp3fqdfjbkwnje2q9xlw93a"
 
       try:
         # Payload bhej rahe hain
