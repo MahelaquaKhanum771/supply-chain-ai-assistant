@@ -11,7 +11,7 @@ if st.button("Run Query"):
     if user_query:
         with st.spinner("Processing through AI pipeline..."):
             # Yahan Make.com ka Webhook URL paste karna hai
-            webhook_url = "YOUR_MAKE_COM_WEBHOOK_URL_HERE"
+            webhook_url = "https://hook.eu1.make.com/4kac7stylqp3fqdfjbkwnje2q9xlw93a"
             
             payload = {"question": user_query}
             response = requests.post(webhook_url, json=payload)
